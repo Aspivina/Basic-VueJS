@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    img(src="./assets/logo.png")
+    img(src="https://aspivina.github.io/Basic-VueJS/assets/logo.png")
     h1 Platzi Music
     select(v-model="selected_country")
       option(v-for="country in countries" :value="country.value") {{country.name}}
